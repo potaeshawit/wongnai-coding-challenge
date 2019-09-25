@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C6A4BD5233B8D9300A948D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A4BD4233B8D9300A948D4 /* AppDelegate.swift */; };
+		7C6A4BD7233B8D9300A948D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A4BD6233B8D9300A948D4 /* SceneDelegate.swift */; };
+		7C6A4BD9233B8D9300A948D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A4BD8233B8D9300A948D4 /* ViewController.swift */; };
+		7C6A4BDC233B8D9300A948D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6A4BDA233B8D9300A948D4 /* Main.storyboard */; };
+		7C6A4BDE233B8D9500A948D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C6A4BDD233B8D9500A948D4 /* Assets.xcassets */; };
+		7C6A4BE1233B8D9500A948D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6A4BDF233B8D9500A948D4 /* LaunchScreen.storyboard */; };
+		ED75DC0B1EA687D12DC7671C /* Pods_WongnaiCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D60A89B7A9FB8778B79865D /* Pods_WongnaiCodingChallenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C6A4BD1233B8D9300A948D4 /* WongnaiCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WongnaiCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6A4BD4233B8D9300A948D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C6A4BD6233B8D9300A948D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7C6A4BD8233B8D9300A948D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C6A4BDB233B8D9300A948D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C6A4BDD233B8D9500A948D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C6A4BE0233B8D9500A948D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C6A4BE2233B8D9500A948D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D3D23D52CE9E36482150230 /* Pods-WongnaiCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiCodingChallenge.release.xcconfig"; path = "Target Support Files/Pods-WongnaiCodingChallenge/Pods-WongnaiCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		88E6B4EF4043C753B3CF1393 /* Pods-WongnaiCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiCodingChallenge.debug.xcconfig"; path = "Target Support Files/Pods-WongnaiCodingChallenge/Pods-WongnaiCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		8D60A89B7A9FB8778B79865D /* Pods_WongnaiCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WongnaiCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C6A4BCE233B8D9300A948D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED75DC0B1EA687D12DC7671C /* Pods_WongnaiCodingChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C6A4BC8233B8D9300A948D4 = {
+			isa = PBXGroup;
+			children = (
+				7C6A4BD3233B8D9300A948D4 /* WongnaiCodingChallenge */,
+				7C6A4BD2233B8D9300A948D4 /* Products */,
+				9D93BF8148FF8339CCBCA039 /* Pods */,
+				C7984CC16E68D2C0B5313945 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C6A4BD2233B8D9300A948D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C6A4BD1233B8D9300A948D4 /* WongnaiCodingChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C6A4BD3233B8D9300A948D4 /* WongnaiCodingChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				7C6A4BD4233B8D9300A948D4 /* AppDelegate.swift */,
+				7C6A4BD6233B8D9300A948D4 /* SceneDelegate.swift */,
+				7C6A4BD8233B8D9300A948D4 /* ViewController.swift */,
+				7C6A4BDA233B8D9300A948D4 /* Main.storyboard */,
+				7C6A4BDD233B8D9500A948D4 /* Assets.xcassets */,
+				7C6A4BDF233B8D9500A948D4 /* LaunchScreen.storyboard */,
+				7C6A4BE2233B8D9500A948D4 /* Info.plist */,
+			);
+			path = WongnaiCodingChallenge;
+			sourceTree = "<group>";
+		};
+		9D93BF8148FF8339CCBCA039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88E6B4EF4043C753B3CF1393 /* Pods-WongnaiCodingChallenge.debug.xcconfig */,
+				7D3D23D52CE9E36482150230 /* Pods-WongnaiCodingChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C7984CC16E68D2C0B5313945 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D60A89B7A9FB8778B79865D /* Pods_WongnaiCodingChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C6A4BD0233B8D9300A948D4 /* WongnaiCodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6A4BE5233B8D9500A948D4 /* Build configuration list for PBXNativeTarget "WongnaiCodingChallenge" */;
+			buildPhases = (
+				DD29D52EA6512CC8D2048AC3 /* [CP] Check Pods Manifest.lock */,
+				7C6A4BCD233B8D9300A948D4 /* Sources */,
+				7C6A4BCE233B8D9300A948D4 /* Frameworks */,
+				7C6A4BCF233B8D9300A948D4 /* Resources */,
+				544EA47BE49BB0BCB4886461 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WongnaiCodingChallenge;
+			productName = WongnaiCodingChallenge;
+			productReference = 7C6A4BD1233B8D9300A948D4 /* WongnaiCodingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C6A4BC9233B8D9300A948D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Taeshawit Suwanwigo";
+				TargetAttributes = {
+					7C6A4BD0233B8D9300A948D4 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 7C6A4BCC233B8D9300A948D4 /* Build configuration list for PBXProject "WongnaiCodingChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C6A4BC8233B8D9300A948D4;
+			productRefGroup = 7C6A4BD2233B8D9300A948D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C6A4BD0233B8D9300A948D4 /* WongnaiCodingChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C6A4BCF233B8D9300A948D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6A4BE1233B8D9500A948D4 /* LaunchScreen.storyboard in Resources */,
+				7C6A4BDE233B8D9500A948D4 /* Assets.xcassets in Resources */,
+				7C6A4BDC233B8D9300A948D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		544EA47BE49BB0BCB4886461 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WongnaiCodingChallenge/Pods-WongnaiCodingChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WongnaiCodingChallenge/Pods-WongnaiCodingChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WongnaiCodingChallenge/Pods-WongnaiCodingChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD29D52EA6512CC8D2048AC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WongnaiCodingChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C6A4BCD233B8D9300A948D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6A4BD9233B8D9300A948D4 /* ViewController.swift in Sources */,
+				7C6A4BD5233B8D9300A948D4 /* AppDelegate.swift in Sources */,
+				7C6A4BD7233B8D9300A948D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C6A4BDA233B8D9300A948D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C6A4BDB233B8D9300A948D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C6A4BDF233B8D9500A948D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C6A4BE0233B8D9500A948D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C6A4BE3233B8D9500A948D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C6A4BE4233B8D9500A948D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C6A4BE6233B8D9500A948D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E6B4EF4043C753B3CF1393 /* Pods-WongnaiCodingChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W9LPF538W;
+				INFOPLIST_FILE = WongnaiCodingChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.potaeshawit.WongnaiCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C6A4BE7233B8D9500A948D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3D23D52CE9E36482150230 /* Pods-WongnaiCodingChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W9LPF538W;
+				INFOPLIST_FILE = WongnaiCodingChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.potaeshawit.WongnaiCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C6A4BCC233B8D9300A948D4 /* Build configuration list for PBXProject "WongnaiCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6A4BE3233B8D9500A948D4 /* Debug */,
+				7C6A4BE4233B8D9500A948D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C6A4BE5233B8D9500A948D4 /* Build configuration list for PBXNativeTarget "WongnaiCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6A4BE6233B8D9500A948D4 /* Debug */,
+				7C6A4BE7233B8D9500A948D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C6A4BC9233B8D9300A948D4 /* Project object */;
+}
